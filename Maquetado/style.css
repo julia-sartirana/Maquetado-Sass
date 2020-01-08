@@ -1,0 +1,114 @@
+body {
+  background-color: #d4dae6;
+  font-family: "Nunito Sans", sans-serif; }
+
+.page-wrapper {
+  width: 85%;
+  height: 850px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex; }
+
+aside {
+  width: calc(30% - 60px);
+  background-color: #ea7a90;
+  color: #f2959e; }
+
+main {
+  width: 70%;
+  background-color: #e0e0ea; }
+
+aside {
+  padding: 30px; }
+
+.profile-aside-container {
+  display: flex; }
+
+.profile-info {
+  margin-left: 20px;
+  padding: 15px 0px;
+  color: #f3f4f8; }
+  .profile-info p {
+    font-size: 22px;
+    margin: 0; }
+  .profile-info span {
+    font-size: 12px; }
+
+.nav-aside {
+  margin-top: 100px; }
+
+.nav-item-icon-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px 0px; }
+  .nav-item-icon-container .nav-items {
+    list-style: none;
+    border: 1px solid;
+    margin-top: 45px;
+    height: 650px; }
+  .nav-item-icon-container i {
+    margin-right: 15px;
+    font-size: 30px; }
+  .nav-item-icon-container.settings {
+    margin-top: 260px; }
+  .nav-item-icon-container:hover {
+    color: #f3f4f8;
+    cursor: pointer; }
+
+.members-info-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 15px;
+  letter-spacing: 0.06em; }
+  .members-info-container .members-info {
+    height: 100px; }
+    .members-info-container .members-info h2 {
+      font-size: 22px;
+      color: #97969d;
+      font-weight: bold;
+      margin: 20px 0px; }
+    .members-info-container .members-info .members-numbers {
+      font-size: 12px;
+      color: #97969d; }
+    .members-info-container .members-info .members-available {
+      margin: 20px 0px;
+      font-size: 14px;
+      color: #97969d; }
+    .members-info-container .members-info .members-view {
+      font-size: 16px;
+      color: #ea7a90;
+      font-weight: bold; }
+
+.articles-members-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.article-member {
+  width: 180px;
+  height: 230px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #f3f4f8;
+  padding: 50px 30px; }
+  .article-member img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
+  .article-member h3 {
+    font-size: 16px;
+    color: #ea7a90;
+    letter-spacing: 0.2em;
+    margin: 20px 0px 0px 0px; }
+  .article-member .member-nationality {
+    font-size: small-font-size;
+    color: #d4dae6; }
+  .article-member p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #97969d;
+    letter-spacing: 0.06em; }
+
+/*# sourceMappingURL=style.css.map */

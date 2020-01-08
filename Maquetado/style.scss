@@ -1,0 +1,161 @@
+
+$main-font: 'Nunito Sans', sans-serif;
+$title-main-font-size: 22px;
+$main-font-size: 16px;
+$secundary-font-size: 14px;
+$small-font-size: 12px;
+$color-nav: #f2959e;
+$color-title-main: #ea7a90;
+$color-small-font: #d4dae6;
+$color-text-main: #97969d;
+$color-text-aside-hover: #f3f4f8;
+
+body {
+  background-color: #d4dae6;
+  font-family: $main-font; 
+  
+}
+
+
+.page-wrapper {
+  width: 85%;
+  height: 850px;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+}
+aside {
+  width: calc(30% - 60px);
+  background-color: #ea7a90;
+  color: $color-nav;
+}
+main {
+  width: 70%;
+  background-color: #e0e0ea;
+}
+//----------------- ASIDE ----------------
+aside {
+  padding: 30px;
+}
+.profile-aside-container {
+  display: flex;
+}
+.profile-info {
+  margin-left: 20px;
+  padding: 15px 0px;
+  color: $color-text-aside-hover;
+
+  p{
+    font-size: $title-main-font-size;
+    margin:0;
+  }
+  span {
+    font-size: $small-font-size;
+  }
+}
+
+.nav-aside {
+  margin-top: 100px;
+}
+.nav-item-icon-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px 0px;
+  
+
+  .nav-items {
+    list-style: none;
+    border: 1px solid;
+    margin-top: 45px;
+    height: 650px;
+         
+  }
+
+  i {
+    margin-right: 15px;
+    font-size: 30px;
+    
+  }
+  &.settings {
+    margin-top: 260px;
+  }
+  &:hover {
+    color: $color-text-aside-hover;
+    cursor: pointer;
+  }
+}
+
+
+//----------------- MAIN -----------------
+.members-info-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 15px; 
+  letter-spacing: 0.06em; 
+
+  .members-info {
+    height: 100px;
+  
+    h2 {
+      font-size: $title-main-font-size;
+      color: $color-text-main;
+      font-weight: bold; 
+      margin: 20px 0px;
+    }
+
+    .members-numbers {
+      font-size: $small-font-size;
+      color: $color-text-main;      
+    }
+
+    .members-available {
+      margin: 20px 0px;
+      font-size: $secundary-font-size;
+      color: $color-text-main;
+    }
+    
+    .members-view {
+      font-size: $main-font-size;
+      color: $color-title-main;
+      font-weight: bold;
+    }
+  }
+}
+.articles-members-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.article-member {
+  width: 180px;
+  height: 230px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #f3f4f8;
+  padding: 50px 30px;
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  h3 {
+    font-size: $main-font-size;
+    color: $color-title-main;
+    letter-spacing: 0.2em; 
+    margin: 20px 0px 0px 0px;
+  }
+  .member-nationality {
+    font-size: small-font-size;
+    color: $color-small-font;    
+  }
+  p {
+    font-size: $main-font-size;
+    font-weight: 700;
+    color: $color-text-main;
+    letter-spacing: 0.06em;
+  }
+
+}
