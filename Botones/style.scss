@@ -1,0 +1,109 @@
+body {
+  margin: 0;  
+  background-color: #ea7a90;
+}
+.buttons-wrapper {
+  width: 65%;
+  height: 100vh;
+  background-color: #d4dae6;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 200px;
+  height: 70px;
+  margin: 0px 20px;
+  font-size: 18px;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.06em;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  &-success {
+    background-color: #4CAF50;
+    color: #f3f4f8;
+    &:hover {
+      background-color: #CDDC39;
+    }
+    &:active {
+      background-color: darkgreen;
+    }
+  }
+  &-info {
+    background-color: #03A9F4;
+    color: #f3f4f8;
+
+    &:hover {
+      background-color: #00BCD4;
+    }
+
+    &:active {
+      background-color: #2196F3
+    }
+  }
+  &-warning {
+    background-color: #FF5722;
+    color: #f3f4f8;
+
+    &:hover {
+      background-color: lightpink;
+    }
+
+    &:active {
+      background-color: #F44336;
+    }
+  }
+
+  &-small {
+    width: 100px;
+    height: 35px;
+    transition: .2s;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: .2s;
+    }
+  }
+  &-medium {
+    width: 150px;
+    height: 50px;
+    transition: .2s;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: .2s;
+    }
+  }
+
+  &-large {
+    transition: .2s;
+
+    &:hover {
+      transform: scale(1.2);
+      transition: .2s;
+    }
+  }
+
+  &-rounded {
+    border-radius: 20px;
+    border: 2px solid #FF9800;
+
+    &:hover {
+      border: 2px solid #FFEB3B;
+    }
+  }
+
+  &-outline {
+    border: 2px solid #FF9800;
+
+    &:hover {
+      border: 2px solid #FFEB3B;
+    }
+  }
+
+}

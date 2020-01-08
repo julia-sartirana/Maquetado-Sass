@@ -1,0 +1,97 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\000031}}
+body {
+  margin: 0;
+  background-color: #ea7a90; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\000035}}
+.buttons-wrapper {
+  width: 65%;
+  height: 100vh;
+  background-color: #d4dae6;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000316}}
+.button {
+  width: 200px;
+  height: 70px;
+  margin: 0px 20px;
+  font-size: 18px;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.06em;
+  border-radius: 5px;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000327}}
+  .button-success {
+    background-color: #4CAF50;
+    color: #f3f4f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000330}}
+    .button-success:hover {
+      background-color: #CDDC39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000333}}
+    .button-success:active {
+      background-color: darkgreen; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000337}}
+  .button-info {
+    background-color: #03A9F4;
+    color: #f3f4f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000341}}
+    .button-info:hover {
+      background-color: #00BCD4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000345}}
+    .button-info:active {
+      background-color: #2196F3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000349}}
+  .button-warning {
+    background-color: #FF5722;
+    color: #f3f4f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000353}}
+    .button-warning:hover {
+      background-color: lightpink; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000357}}
+    .button-warning:active {
+      background-color: #F44336; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000362}}
+  .button-small {
+    width: 100px;
+    height: 35px;
+    transition: .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000367}}
+    .button-small:hover {
+      transform: scale(1.2);
+      transition: .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000372}}
+  .button-medium {
+    width: 150px;
+    height: 50px;
+    transition: .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000377}}
+    .button-medium:hover {
+      transform: scale(1.2);
+      transition: .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000383}}
+  .button-large {
+    transition: .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000386}}
+    .button-large:hover {
+      transform: scale(1.2);
+      transition: .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000392}}
+  .button-rounded {
+    border-radius: 20px;
+    border: 2px solid #FF9800; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\0000396}}
+    .button-rounded:hover {
+      border: 2px solid #FFEB3B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\00003101}}
+  .button-outline {
+    border: 2px solid #FF9800; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/sistema\.sistema-PC\/Documents\/ADA\/Clase\%2020\/Botones\/style\.scss}line{font-family:\00003104}}
+    .button-outline:hover {
+      border: 2px solid #FFEB3B; }
+
+/*# sourceMappingURL=style.css.map */
