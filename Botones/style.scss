@@ -1,7 +1,36 @@
+$main-bg: #ea7a90;
+$main-font: 'Cambria';
+$font-color: #f3f4f8;
+
+$bg-btn-success: #4CAF50;
+$bg-btn-info: #03A9F4;
+$bg-btn-danger: #FF5722;
+
+$bg-btn-success-hover: #CDDC39;
+$bg-btn-info-hover: #00BCD4;
+$bg-btn-danger-hover: lightpink;
+
+$bg-btn-success-active: darkgreen;
+$bg-btn-info-active: #2196F3;
+$bg-btn-danger-avtive: #F44336;
+
+$width-btn-small: 100px;
+$width-btn-medium: 150px;
+$width-btn-large: 200px;
+
+$height-btn-small: 35px;
+$height-btn-medium: 50px;
+$height-btn-large: 70px;
+
+$border-btn: 2px solid #FF9800;
+$border-bth-hover:  2px solid #FFEB3B;
+
+
 body {
-  margin: 0;  
-  background-color: #ea7a90;
+  margin: 0;
+  background-color: $main-bg;
 }
+
 .buttons-wrapper {
   width: 65%;
   height: 100vh;
@@ -14,54 +43,58 @@ body {
 }
 
 .button {
-  width: 200px;
-  height: 70px;
+  width: $width-btn-large;
+  height: $height-btn-large;
   margin: 0px 20px;
   font-size: 18px;
   border: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: $main-font;
   letter-spacing: 0.06em;
   border-radius: 5px;
   cursor: pointer;
-  
+
   &-success {
-    background-color: #4CAF50;
-    color: #f3f4f8;
+    background-color: $bg-btn-success;
+    color: $font-color;
+
     &:hover {
-      background-color: #CDDC39;
+      background-color: $bg-btn-success-hover;
     }
+
     &:active {
-      background-color: darkgreen;
+      background-color: $bg-btn-success-active;
     }
   }
+
   &-info {
-    background-color: #03A9F4;
-    color: #f3f4f8;
+    background-color: $bg-btn-info;
+    color: $font-color;
 
     &:hover {
-      background-color: #00BCD4;
+      background-color: $bg-btn-info-hover;
     }
 
     &:active {
-      background-color: #2196F3
+      background-color: $bg-btn-info-active;
     }
   }
+
   &-warning {
-    background-color: #FF5722;
-    color: #f3f4f8;
+    background-color: $bg-btn-danger;
+    color: $font-color;
 
     &:hover {
-      background-color: lightpink;
+      background-color: $bg-btn-danger-hover;
     }
 
     &:active {
-      background-color: #F44336;
+      background-color: $bg-btn-danger-avtive;
     }
   }
 
   &-small {
-    width: 100px;
-    height: 35px;
+    width: width-btn-small;
+    height: $height-btn-small;
     transition: .2s;
 
     &:hover {
@@ -69,9 +102,10 @@ body {
       transition: .2s;
     }
   }
+
   &-medium {
-    width: 150px;
-    height: 50px;
+    width: $width-btn-medium;
+    height: $height-btn-medium;
     transition: .2s;
 
     &:hover {
@@ -91,18 +125,18 @@ body {
 
   &-rounded {
     border-radius: 20px;
-    border: 2px solid #FF9800;
+    border: $border-btn;
 
     &:hover {
-      border: 2px solid #FFEB3B;
+      border: $border-bth-hover;
     }
   }
 
   &-outline {
-    border: 2px solid #FF9800;
+    border:$border-btn;
 
     &:hover {
-      border: 2px solid #FFEB3B;
+      border: $border-bth-hover;
     }
   }
 
